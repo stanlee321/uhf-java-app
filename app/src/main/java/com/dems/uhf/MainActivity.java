@@ -30,8 +30,6 @@ import org.greenrobot.eventbus.ThreadMode;
 public class MainActivity extends AppCompatActivity {
     private static final String[] list = {"Reserved", "EPC", "TID", "USER"};
 
-    private TextView Status, Version;
-    private Spinner Area_Select;
     private IUHFService iuhfService;
     private String modle;
 
