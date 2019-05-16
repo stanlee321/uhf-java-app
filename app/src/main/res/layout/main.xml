@@ -12,24 +12,12 @@
 
         <Button
             android:id="@+id/btn_search"
-            android:layout_width="215dp"
+            android:layout_width="80dp"
             android:layout_height="match_parent"
             android:text="@string/Search_Btn_T" />
 
     </LinearLayout>
 
-    <LinearLayout
-        android:id="@+id/linearLayout2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" >
-
-        <Button
-            android:id="@+id/btn_read"
-            android:layout_width="215dp"
-            android:layout_height="match_parent"
-            android:text="@string/Read_Btn_T" />
-
-    </LinearLayout>
 
     <EditText
         android:background="@drawable/bg_edit"
@@ -47,13 +35,6 @@
         android:layout_height="wrap_content" >
 
 
-        <Button
-            android:visibility="gone"
-            android:id="@+id/btn_inv_set"
-            android:layout_width="1dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:text="@string/inv_set" />
         <Button
             android:visibility="gone"
             android:id="@+id/button_spt"
@@ -76,4 +57,3 @@
         android:text="@string/TextView_Null" />
 
 </LinearLayout>
-
