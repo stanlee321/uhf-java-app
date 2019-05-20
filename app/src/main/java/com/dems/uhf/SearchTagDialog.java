@@ -29,6 +29,8 @@ import org.greenrobot.eventbus.EventBus;
 import java.util.ArrayList;
 import java.util.List;
 
+import static android.content.ContentValues.TAG;
+
 /**
  * Created by 张明_ on 2016/12/28.
  */
@@ -249,9 +251,13 @@ public class SearchTagDialog extends Dialog implements
         @Override
         public String toString() {
             if (TextUtils.isEmpty(tid_user)) {
+                Log.v(TAG, "RSSI" + rssi);
+                Log.v(TAG, "EPC" + epc);
                 return "EPC:" + epc + "\n"
                         + "(" + "COUNT:" + valid + ")" + " RSSI:" + rssi+"\n";
             } else {
+                Log.v(TAG, "RSSI" + rssi);
+                Log.v(TAG, "EPC" + epc);
                 return "EPC:" + epc + "\n"
                         + "T/U:" + tid_user + "\n"
                         + "(" + "COUNT:" + valid + ")" + " RSSI:" + rssi+"\n";
